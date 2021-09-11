@@ -1,0 +1,98 @@
+
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.principal{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-inline: 20vw;
+    border-color: rgb(182, 182, 182);
+    border-width: 3px;
+    border-style: solid;
+}
+h1{
+    color: #52b2d6;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+}
+
+.jobDescri{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    top: 50%;
+    position: relative;
+    font-weight: medium;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+}
+
+section{
+    margin: 30px;
+}
+
+h2{
+    color: #52b2d6;
+    font-size: 25px;
+    font-style: italic;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    border-bottom: solid 3px rgb(182, 182, 182);
+    font-weight: 500;
+}
+
+h3{
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.leftContainer ul{
+    margin: 10px;
+}
+.leftContainer li{
+    list-style-type: disc;
+    margin: 10px;
+    margin-left: 15px;
+}
+.data{
+    margin-top: 5px;
+    font-style: italic;
+}
+p{
+    line-height: 20px;
+}
+.leftContainer{
+    width: 60vw;
+}
+.rigthContainer li{
+    margin-bottom: 10px;
+}
+.rigthContainer{
+    width: 30vw;
+}
+span{
+    margin-left: 50%;
+}
+
+p{
+    text-align: justify;
+}
